@@ -1,0 +1,19 @@
+Ruchik Patel
+CSCI 430 - Algorithm Design and Analysis
+Fall, 2017
+Program 2: Selection Sort and Bubble sort
+
+Implementation:
+The pseudocode was already given to us hence it was less challenging to implement the algorithm. So I didn’t find it trivial to interpret the code. However, I was trying to understand each line and how they perform graphically took longer time for the code to function the way I wanted to. 
+
+Testing Expectations:
+Since the major task for this algorithm is to find the largest contiguous sum the runtime expectation was to be low.   
+
+Testing Observations:
+The observation was little different than what I expected. I was expecting the run time to be equivalent to merge sort algorithm, but since it’s not a sort algorithm I wasn’t to confident it to be any slower than merge sort. The Order, reverse and random took roughly the same time to execute on each level, respectively.  
+
+Analysis:
+So the highest user time that took to find the best sum series in order and reverse was 0.10 seconds and about 0.12 seconds for the random, which is the best’ve seen so far in algorithm. Clearly the calculation doesn’t slow down the process but the number of elements in the array matters. However it wasn’t too bad with respect to runtime. 
+
+Take-Away:
+The take away from this project was definitely the algorithm itself and since it’s the addition of a series of numbers it can be implemented for various tasks, especially when the runtime expense is very low.  

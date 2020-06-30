@@ -1,0 +1,19 @@
+ Ruchik Patel
+CSCI 430 - Algorithm Design and Analysis
+Fall, 2017
+Program 2: Selection Sort and Bubble sort
+
+Implementation:
+Implementation of selection sort was not to bad since I had the visual idea of how the algorithm function but with the bubble sort I don’t think I had any prior knowledge about it. Thus I watched couple of youtube video to see if I wasn’t missing any key features about bubble sort before implementing it. Also, honestly I was thinking that this might be the two complicated algorithms to implement since I did had chance to work with them but they were not. 
+
+Testing Expectations:
+So for the bubble sort I knew it had to be the one with bad runtime since it takes longer time to sort things once the element increases. With the selection sort it had to be the one that runs equally for all the operations since the concept behind the algorithm is same, here selecting an item on the index point and sorting it. 
+
+Testing Observations:
+It actually turned out the way I expected, bubble sort being the bad one compare to selection sort. By bad I mean with respect to runtime. Bubble sort operations were growing smoothly in a quadratic fashion (as we would expect). 
+
+Analysis:
+So as I mentioned above that I knew bubble sort would be bad one compare to selection sort with respect to run time and that was my expectation, which after plotting on a line chart turned out to be true. However bubble sort works better if the input of element is less and doesn’t take that much runtime. 
+
+Take-Away:
+So knowledge wise speaking, as I said above that I never had chance to implement the algorithm, which I did in this project, I would probably consider that a primary take-away. However analytically speaking I known now which algorithm, i.e: merge sort, insertion, selection or bubble sort works better in which case and that can help to solve problems. Despite of being the expensive algorithm, bubble sort can perform better with small input since it is very simple implement it. 

@@ -1,0 +1,19 @@
+Ruchik Patel
+CSCI 430 - Algorithm Design and Analysis
+Fall, 2017
+Program 3: Heapsort, Quicksort and Quicksort(Randomized)
+
+Implementation:
+Implementation was bit difficult for Heapsort because for some reason when I followed the pseudocode provided by the textbook we are using in class I was getting errors and it was exactly the same implementation. However I had to do some outside research about Heapsort in order to make sure that I was understanding the algorithm correctly. Implementing quick sort and randomized quick sort was pretty straight forward. I encountered few errors and they were because I capped recursion limit to more. However it wasn’t too bad overall. 
+
+Testing Expectations:
+With the Heap sort and quick sort I had feeling that quick sort would be bit faster than heap sort, but not that different. Despite of being the same worst-case running time, i.e. (n log n ). One reason for quick sort being faster is because since we don’t swap the ordered elements so that can save us some time. Other reason for me favoring quick sort to run faster is pivot. Thus randomized quick sort would be faster.
+
+Testing Observations:
+With these sorting algorithms I think my vote for efficient runtime was towards randomized quick sort, which actually turned out to be true after seeing the graphs. For Heapsort, the reversed worked more efficiently than random and ordered. The main reason was no matter if the element is in place or not we still swap and check. However since all number’s are in reversed ordered it definitely would run faster than ordered and random. With quick sort, the graph looked really nice and smooth. The random ordered sorting was efficient and faster than reversed followed by ordered. Was saving best for the last, randomized quick sort, It worked efficiently compare to heap sort and quick sort. Speaking about random, ordered and revered sorting, randomized quick sort performs reverse and ordered with almost same time followed by random.
+
+Analysis:
+In all my reports the test expectations have always met the testing observation since we have worked out all the algorithms by hand in class and thus we know how they would perform in both best and worst case. Thus it is rare that the expectation won’t meet the observation. Speaking about this project, the expectation did match with my observations.
+
+Take-Away:
+Well firstly visualizing all the algorithm together was really great and I think using graphs to plot time is really nice way to conclude any algorithms or data structure. Another take-away was knowing which algorithm I should use if I ever want to swap large number of data and small number of data. Insertion and merge sort works great with small data however quick sort and heap are really great to use with large data. 
